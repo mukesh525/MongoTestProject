@@ -20,8 +20,8 @@ module.exports = (criteria, sortProperty, offset = 0, limit = 20) => {
       return {
         all: results[0],
         count: results[1],
-        offset: offset,
-        limit: limit
+        offset,
+        limit
       };
     });
 };
